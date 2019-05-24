@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Firebase Hosting TestPage</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #444444;
+    }
+
+    h2 {
+      width: 100%;
+      text-align: center;
+      color: yellow;
+      user-select: none;
+    }
+
+    #canvas {
+      width: 100vw;
+      height: 100vw;
+    }
+
+    #controller {
+      width: 100%;
+      text-align: center;
+    }
+  </style>
+  <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+  <script src="./js/main.js"></script>
+</head>
+
+<body onload="init();">
+  <img id="strip" src="strip.png" style="display:none;">
+  <canvas id="canvas" width="600" height="600"></canvas>
+  <h2>Invader</h2>
+</body>
+
+</html>

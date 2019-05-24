@@ -1,0 +1,7 @@
+**/.env
+**/node_modules
+**/.firebase
+**/.firebaserc
+
+# 個人的なメモファイル
+memo.md
